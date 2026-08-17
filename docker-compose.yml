@@ -1,0 +1,43 @@
+
+version: "3.8"
+
+services:
+  db:
+    image: ankane/pgvector:latest
+    environment:
+      POSTGRES_USER: legacyx
+      POSTGRES_PASSWORD: legacyx
+      POSTGRES_DB: legacyx
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./backend/db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5433:5432"
+
+  backend:
+    build: ./backend
+    env_file:
+      - ./backend/.env
+    environment:
+      - DATABASE_URL=postgresql+psycopg://legacyx:legacyx@db:5432/legacyx
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ENABLE_AGENTIC=${ENABLE_AGENTIC:-}
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8012:8000"
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
+

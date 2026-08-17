@@ -1,0 +1,58 @@
+{
+  "exit_code": 2,
+  "stdout": "\n==================================== ERRORS ====================================\n_______________________ ERROR collecting test_ingest.py ________________________\nImportError while importing test module '/tmp/execsvc_vqcie4qz/test_ingest.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/local/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\ntest_ingest.py:27: in <module>\n    from main import app  # adjust import path to match your project layout\nE   ModuleNotFoundError: No module named 'main'\n=========================== short test summary info ============================\nERROR test_ingest.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.23s\n",
+  "stderr": "",
+  "cmd": "/usr/local/bin/python3.12 -m pytest -q",
+  "timed_out": false,
+  "duration_seconds": 0.6536159515380859,
+  "artifacts": [
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/test_ingest.py",
+      "relpath": "test_ingest.py",
+      "size": 6572,
+      "sha256": "0f1227bf517f22af20a1c1463aa8fcc3f5353cb352ad1a37ade6dbf5afda0e75"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/README.md",
+      "relpath": ".pytest_cache/README.md",
+      "size": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/.gitignore",
+      "relpath": ".pytest_cache/.gitignore",
+      "size": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/CACHEDIR.TAG",
+      "relpath": ".pytest_cache/CACHEDIR.TAG",
+      "size": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/__pycache__/test_ingest.cpython-312-pytest-8.3.2.pyc",
+      "relpath": "__pycache__/test_ingest.cpython-312-pytest-8.3.2.pyc",
+      "size": 16213,
+      "sha256": "83fc53b707746bbfb6ce5997ae77d2a51a0aa017393cf2b338e90512e48e2b6a"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/v/cache/lastfailed",
+      "relpath": ".pytest_cache/v/cache/lastfailed",
+      "size": 28,
+      "sha256": "da7569362e7794795203645d65bb128177cb1aad883e9de97d2b7715c555c2c7"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/v/cache/stepwise",
+      "relpath": ".pytest_cache/v/cache/stepwise",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_81a26f212b784170a71ae8942a726f1c/.pytest_cache/v/cache/nodeids",
+      "relpath": ".pytest_cache/v/cache/nodeids",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ]
+}

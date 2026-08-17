@@ -1,0 +1,46 @@
+{
+  "exit_code": 5,
+  "stdout": "\nno tests ran in 0.00s\n",
+  "stderr": "",
+  "cmd": "/usr/local/bin/python -m pytest -q",
+  "timed_out": false,
+  "duration_seconds": 0.39861440658569336,
+  "artifacts": [
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/source.cbl",
+      "relpath": "source.cbl",
+      "size": 485,
+      "sha256": "fe1709ad213fc64a162f93d243d29eb6dd8b1bd30b6fee5ed1f63c9e1a3acfd9"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/.pytest_cache/README.md",
+      "relpath": ".pytest_cache/README.md",
+      "size": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/.pytest_cache/.gitignore",
+      "relpath": ".pytest_cache/.gitignore",
+      "size": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/.pytest_cache/CACHEDIR.TAG",
+      "relpath": ".pytest_cache/CACHEDIR.TAG",
+      "size": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/.pytest_cache/v/cache/stepwise",
+      "relpath": ".pytest_cache/v/cache/stepwise",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/app/backend/tmp_artifacts/artifacts_execution_metadata_test_gen_001/.pytest_cache/v/cache/nodeids",
+      "relpath": ".pytest_cache/v/cache/nodeids",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ]
+}

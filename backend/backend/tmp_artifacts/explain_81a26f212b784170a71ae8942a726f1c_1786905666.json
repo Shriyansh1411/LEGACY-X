@@ -1,0 +1,39 @@
+{
+  "summary": "16 mismatches",
+  "causes": [
+    "Mismatch detected: No legacy/golden outputs found in project; comparison may be incomplete.",
+    "Mismatch detected: No match for modern output: ==================================== ERRORS ====================================",
+    "Mismatch detected: No match for modern output: _______________________ ERROR collecting test_ingest.py ________________________",
+    "Mismatch detected: No match for modern output: ImportError while importing test module '/tmp/execsvc_vqcie4qz/test_ingest.py'.",
+    "Mismatch detected: No match for modern output: Hint: make sure your test modules/packages have valid Python names.",
+    "Mismatch detected: No match for modern output: Traceback:",
+    "Mismatch detected: No match for modern output: /usr/local/lib/python3.12/importlib/__init__.py:90: in import_module",
+    "Mismatch detected: No match for modern output: return _bootstrap._gcd_import(name[level:], package, level)",
+    "Mismatch detected: No match for modern output: test_ingest.py:27: in <module>",
+    "Mismatch detected: No match for modern output: from main import app  # adjust import path to match your project layout",
+    "Mismatch detected: No match for modern output: E   ModuleNotFoundError: No module named 'main'",
+    "Mismatch detected: No match for modern output: =========================== short test summary info ============================",
+    "Mismatch detected: No match for modern output: ERROR test_ingest.py",
+    "Mismatch detected: No match for modern output: !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!",
+    "Mismatch detected: No match for modern output: 1 error in 0.23s",
+    "Mismatch detected: Modern execution exit code: 2"
+  ],
+  "suggestions": [
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs.",
+    "Check parsing, type conversions, and boundary conditions for the affected outputs."
+  ]
+}

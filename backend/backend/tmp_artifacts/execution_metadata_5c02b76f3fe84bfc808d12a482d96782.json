@@ -1,0 +1,46 @@
+{
+  "exit_code": 5,
+  "stdout": "\nno tests ran in 0.00s\n",
+  "stderr": "",
+  "cmd": "/Users/ekta_mishra1/Desktop/legacy_software/backend/.venv/bin/python3.12 -m pytest -q",
+  "timed_out": false,
+  "duration_seconds": 0.1319739818572998,
+  "artifacts": [
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/source.cbl",
+      "relpath": "source.cbl",
+      "size": 161,
+      "sha256": "e2cbc7c20e5de39e3e474b9e7b510fdd52e110dda2199f78bcb687c532e9c90a"
+    },
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/.pytest_cache/CACHEDIR.TAG",
+      "relpath": ".pytest_cache/CACHEDIR.TAG",
+      "size": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/.pytest_cache/README.md",
+      "relpath": ".pytest_cache/README.md",
+      "size": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/.pytest_cache/.gitignore",
+      "relpath": ".pytest_cache/.gitignore",
+      "size": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/.pytest_cache/v/cache/nodeids",
+      "relpath": ".pytest_cache/v/cache/nodeids",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/Users/ekta_mishra1/Desktop/legacy_software/backend/backend/tmp_artifacts/artifacts_execution_metadata_5c02b76f3fe84bfc808d12a482d96782/.pytest_cache/v/cache/stepwise",
+      "relpath": ".pytest_cache/v/cache/stepwise",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ]
+}
